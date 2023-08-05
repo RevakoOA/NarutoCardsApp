@@ -51,6 +51,10 @@ retrofitKotlinxSerializationJson = "1.0.0"
 room = "2.5.2"
 secrets = "2.0.1"
 turbine = "0.12.1"
+org-jetbrains-kotlin-android = "1.8.10"
+junit = "1.1.5"
+lifecycle-runtime-ktx = "2.6.1"
+material = "1.9.0"
 
 [libraries]
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
@@ -133,6 +137,11 @@ firebase-crashlytics-gradlePlugin = { group = "com.google.firebase", name = "fir
 firebase-performance-gradlePlugin = { group = "com.google.firebase", name = "perf-plugin", version.ref = "firebasePerfPlugin" }
 kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 com-android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -146,3 +155,4 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
 secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }

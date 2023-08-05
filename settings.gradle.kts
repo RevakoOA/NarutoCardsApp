@@ -17,3 +17,6 @@ dependencyResolutionManagement {
 rootProject.name = "narutocards"
 include(":app")
 include(":core:model")
+include(":feature")
+include(":feature:characters")
+include(":core:designsystem")
