@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "NarutoCardsApp"
 include(":app")
 include(":build-logic")
+include(":build-logic:convention")
